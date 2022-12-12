@@ -14,8 +14,7 @@
 - Added features to the site
 - Project Manager role
 
-Technologies: WordPress, HTML5, CSS3, FlexBox, Github, Javascript,
-ReactJS
+Technologies: WordPress, HTML5, CSS3, FlexBox, Github, Javascript,ReactJS
 
 ## Late Bloomers, Tashkent– Junior Frontend Developer
 

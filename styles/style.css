@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Neucha', cursive;
+  color: #000;
+}
+
+.wrapper__inner {
+  padding-top: 50px;
+  text-align: center;
+  background: #def7fe;
+}
+
+.header__inner,
+.experience__wrapper,
+.code__wrapper,
+.education__wrapper,
+.skills__wrapper,
+.languages__wrapper,
+.contacts__wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  margin: 0 -20px 5px;
+  padding: 10px 0;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.header__avatar {
+  max-width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.header__inner img {
+  max-width: 150px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+ul {
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto 30px;
+  padding-left: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.experience__title {
+  margin-top: 0;
+}
+
+.education__ul {
+  max-width: 380px;
+}
+
+.skills__ul {
+  max-width: 410px;
+}
+
+.links__ul {
+  max-width: 280px;
+}
+
+.contacts__ul {
+  max-width: 300px;
+}
+
+ul li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in;
+}
+
+ul li::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border: 2px dotted #000;
+  border-radius: 50%;
+}
+
+.contacts__ul li::before {
+  display: none;
+}
+
+.contacts__ul li p {
+  display: inline;
+  margin: 0;
+}
+
+.contacts__ul img {
+  margin-right: 20px;
+}
+
+.contacts__ul li {
+  display: flex;
+  align-items: center;
+}
+
+.footer__wrapper {
+  margin: 0 -20px;
+  padding: 20px 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px -15px 10px -15px #111;
+}
+
+.footer__wrapper img {
+  max-width: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
